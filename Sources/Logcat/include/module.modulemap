@@ -1,0 +1,5 @@
+module Logcat {
+	header "Logcat.h"
+    link "log"
+	export *
+}

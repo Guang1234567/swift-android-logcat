@@ -1,5 +1,4 @@
-module Logcat {
+module Logcat [system] {
     header "Logcat.h"
     link "log"
-    export *
 }

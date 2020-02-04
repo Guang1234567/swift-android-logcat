@@ -2,9 +2,9 @@
 import PackageDescription
 
 let package = Package(
-        name: "Logcat",
+        name: "AndroidSwiftLogcat",
         products: [
-            .library(name: "Logcat", targets: ["log"])
+            .library(name: "AndroidSwiftLogcat", targets: ["log"])
         ],
         targets:[
             .systemLibrary(name: "log", path: "Sources"),

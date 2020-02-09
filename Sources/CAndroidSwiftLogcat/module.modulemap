@@ -1,0 +1,4 @@
+module CAndroidSwiftLogcat [system] {
+    header "wrapper.h"
+    link "log"
+}

@@ -11,8 +11,11 @@
  .....
  
  public func helloWorld() {
-    // warn : 5
-    android_log(android_LogPriority(5), "hello",  "TasksRepository init !!!")
+    AndroidLogcat.v("hello",  "TasksRepository init !!!")
+    AndroidLogcat.d("hello",  "TasksRepository init !!!")
+    AndroidLogcat.i("hello",  "TasksRepository init !!!")
+    AndroidLogcat.w("hello",  "TasksRepository init !!!")
+    AndroidLogcat.e("hello",  "TasksRepository init !!!")
  }
  
 

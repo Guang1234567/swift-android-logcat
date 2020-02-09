@@ -1,4 +1,0 @@
-module AndroidSwiftLogcat [system] {
-    header "Logcat.h"
-    link "log"
-}
